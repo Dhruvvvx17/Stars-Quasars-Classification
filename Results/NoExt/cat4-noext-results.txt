@@ -1,0 +1,33 @@
+##################################################
+Predicting with our KNN Model
+ 86.03% accurate | Time taken = 1:40:42.701354 | k = 5 | 30.0% test size | train / test =   23424 /   10039 | features = 21 | cat4.csv
+Confusion Matrix
+[[2293  706]
+ [ 696 6344]]
+              precision    recall  f1-score   support
+
+           0       0.77      0.76      0.77      2999
+           1       0.90      0.90      0.90      7040
+
+    accuracy                           0.86     10039
+   macro avg       0.83      0.83      0.83     10039
+weighted avg       0.86      0.86      0.86     10039
+
+#########################
+Cross Validation with Redshift
+ 85.95% accurate | Time taken = 0:00:00.012341 | 30.0% test size | train / test =   23424 /   10039 | features = 1 | cat4.csv
+Confusion Matrix
+[[2281  696    0]
+ [ 699 6348    0]
+ [   9    6    0]]
+              precision    recall  f1-score   support
+
+           0       0.76      0.77      0.76      2977
+           1       0.90      0.90      0.90      7047
+           2       0.00      0.00      0.00        15
+
+    accuracy                           0.86     10039
+   macro avg       0.55      0.56      0.56     10039
+weighted avg       0.86      0.86      0.86     10039
+
+##################################################

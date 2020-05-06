@@ -1,0 +1,2 @@
+Bias Variacne Decomposition
+avg (expected) loss, avg bias, avg variance = (0.049725776965265076, 0.04021937842778794, 0.028007312614259598)

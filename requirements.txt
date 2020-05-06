@@ -1,0 +1,4 @@
+mlxtend==0.17.0
+numpy==1.17.3
+pandas==0.25.2
+sklearn==0.0

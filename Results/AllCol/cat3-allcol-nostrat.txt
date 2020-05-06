@@ -1,0 +1,157 @@
+##################################################
+Predicting with our KNN Model
+ 96.12% accurate | Time taken = 0:04:51.690411 | k = 3 | 30.0% test size | train / test =    3006 /    1289 | features = 33 | cat3.csv
+Confusion Matrix
+[[ 102   25]
+ [  25 1137]]
+              precision    recall  f1-score   support
+
+           0       0.80      0.80      0.80       127
+           1       0.98      0.98      0.98      1162
+
+    accuracy                           0.96      1289
+   macro avg       0.89      0.89      0.89      1289
+weighted avg       0.96      0.96      0.96      1289
+
+#########################
+Cross Validation with Redshift
+ 96.20% accurate | Time taken = 0:00:00.003498 | 30.0% test size | train / test =    3006 /    1289 | features = 1 | cat3.csv
+Confusion Matrix
+[[ 103   23    0]
+ [  22 1137    0]
+ [   2    2    0]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.82      0.81       126
+           1       0.98      0.98      0.98      1159
+           2       0.00      0.00      0.00         4
+
+    accuracy                           0.96      1289
+   macro avg       0.60      0.60      0.60      1289
+weighted avg       0.96      0.96      0.96      1289
+
+##################################################
+ 96.82% accurate | Time taken = 0:00:00.026058 | k = 5 | 30.0% test size | train / test =    3006 /    1289 | features = 33 | cat3.csv
+Confusion Matrix
+[[ 102   25]
+ [  16 1146]]
+              precision    recall  f1-score   support
+
+           0       0.86      0.80      0.83       127
+           1       0.98      0.99      0.98      1162
+
+    accuracy                           0.97      1289
+   macro avg       0.92      0.89      0.91      1289
+weighted avg       0.97      0.97      0.97      1289
+
+#########################
+Cross Validation with Redshift
+ 96.74% accurate | Time taken = 0:00:00.003568 | 30.0% test size | train / test =    3006 /    1289 | features = 1 | cat3.csv
+Confusion Matrix
+[[ 102   24    0]
+ [  14 1145    0]
+ [   2    2    0]]
+              precision    recall  f1-score   support
+
+           0       0.86      0.81      0.84       126
+           1       0.98      0.99      0.98      1159
+           2       0.00      0.00      0.00         4
+
+    accuracy                           0.97      1289
+   macro avg       0.61      0.60      0.61      1289
+weighted avg       0.96      0.97      0.97      1289
+
+##################################################
+ 96.74% accurate | Time taken = 0:00:00.023777 | k = 7 | 30.0% test size | train / test =    3006 /    1289 | features = 33 | cat3.csv
+Confusion Matrix
+[[  99   28]
+ [  14 1148]]
+              precision    recall  f1-score   support
+
+           0       0.88      0.78      0.82       127
+           1       0.98      0.99      0.98      1162
+
+    accuracy                           0.97      1289
+   macro avg       0.93      0.88      0.90      1289
+weighted avg       0.97      0.97      0.97      1289
+
+#########################
+Cross Validation with Redshift
+ 96.51% accurate | Time taken = 0:00:00.003573 | 30.0% test size | train / test =    3006 /    1289 | features = 1 | cat3.csv
+Confusion Matrix
+[[  98   28    0]
+ [  13 1146    0]
+ [   2    2    0]]
+              precision    recall  f1-score   support
+
+           0       0.87      0.78      0.82       126
+           1       0.97      0.99      0.98      1159
+           2       0.00      0.00      0.00         4
+
+    accuracy                           0.97      1289
+   macro avg       0.61      0.59      0.60      1289
+weighted avg       0.96      0.97      0.96      1289
+
+##################################################
+ 96.51% accurate | Time taken = 0:00:00.023896 | k = 9 | 30.0% test size | train / test =    3006 /    1289 | features = 33 | cat3.csv
+Confusion Matrix
+[[  95   32]
+ [  13 1149]]
+              precision    recall  f1-score   support
+
+           0       0.88      0.75      0.81       127
+           1       0.97      0.99      0.98      1162
+
+    accuracy                           0.97      1289
+   macro avg       0.93      0.87      0.89      1289
+weighted avg       0.96      0.97      0.96      1289
+
+#########################
+Cross Validation with Redshift
+ 96.28% accurate | Time taken = 0:00:00.003568 | 30.0% test size | train / test =    3006 /    1289 | features = 1 | cat3.csv
+Confusion Matrix
+[[  94   32    0]
+ [  12 1147    0]
+ [   2    2    0]]
+              precision    recall  f1-score   support
+
+           0       0.87      0.75      0.80       126
+           1       0.97      0.99      0.98      1159
+           2       0.00      0.00      0.00         4
+
+    accuracy                           0.96      1289
+   macro avg       0.61      0.58      0.59      1289
+weighted avg       0.96      0.96      0.96      1289
+
+##################################################
+ 96.28% accurate | Time taken = 0:00:00.024125 | k = 11 | 30.0% test size | train / test =    3006 /    1289 | features = 33 | cat3.csv
+Confusion Matrix
+[[  94   33]
+ [  15 1147]]
+              precision    recall  f1-score   support
+
+           0       0.86      0.74      0.80       127
+           1       0.97      0.99      0.98      1162
+
+    accuracy                           0.96      1289
+   macro avg       0.92      0.86      0.89      1289
+weighted avg       0.96      0.96      0.96      1289
+
+#########################
+Cross Validation with Redshift
+ 96.20% accurate | Time taken = 0:00:00.003604 | 30.0% test size | train / test =    3006 /    1289 | features = 1 | cat3.csv
+Confusion Matrix
+[[  94   32    0]
+ [  13 1146    0]
+ [   2    2    0]]
+              precision    recall  f1-score   support
+
+           0       0.86      0.75      0.80       126
+           1       0.97      0.99      0.98      1159
+           2       0.00      0.00      0.00         4
+
+    accuracy                           0.96      1289
+   macro avg       0.61      0.58      0.59      1289
+weighted avg       0.96      0.96      0.96      1289
+
+##################################################
